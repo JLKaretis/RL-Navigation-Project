@@ -28,7 +28,8 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 Folder structure:
 
-```root
+```
+root
 - p1_navigation
 - python
 ```
