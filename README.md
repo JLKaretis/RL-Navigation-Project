@@ -24,6 +24,29 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
+### Project folders and files
+
+Folder structure:
+
+```root
+- p1_navigation
+- python
+```
+
+The `Report.ipynb` notebook can be used to train the agents
+
+The agents are defined in the files:
+- `dqn_agent.py`: vanilla DQN agent
+- `doubledqn_agent.py`: double DQN agent
+- `prioritized_ddqn.py`: double DQN agent with prioritized experience replay
+- `dueling_ddqn.py`: double DQN agent with prioritized experience replay using a dueling network
+
+The PyTorch Neural Networks are defined in the files:
+- `model.py`: default DQN network
+- `dueling_model.py`: Dueling DQN network
+
+The saved pytorch model weights are also saved in root 
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
